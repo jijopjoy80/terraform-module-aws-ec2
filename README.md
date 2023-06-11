@@ -1,6 +1,8 @@
 # module usage
 ```
 module "http-instances"{
+  source  = "jijopjoy80/aws-ec2/module"
+  version = ""
   instancecount=4
   ami="ami-053b0d53c279acc90"
   }
